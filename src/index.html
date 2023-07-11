@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./styles/reset.css"/>
+    <link rel="stylesheet" href="./styles/style.css"/>
+    <script defer src="././scripts/currency.js"></script>
+    <script defer src="././scripts/api.js"></script>
+    <script defer src="././scripts/script.js"></script>
+
+    <title>currency exchange</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="app-details">
+        <img class="app-icon" src="./assets/icons/exchange-logo.png" alt="">
+        <h1 class="app-title">Currency Exchange</h1>
+    </div>
+    <label for="amount">Amount</label>
+    <input type="number" id="amount" value="100">
+    <div class="dropdowns">
+        <select id="from-currency-select"></select>
+        <select id="to-currency-select"></select>
+    </div>
+    <button id="convert-button">Convert</button>
+    <p id="result"></p>
+</div>
+
+
+</body>
+</html>
