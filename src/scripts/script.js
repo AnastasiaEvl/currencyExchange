@@ -22,7 +22,7 @@ let convertCurrency=()=>{
 const amount = document.querySelector('#amount').value;
 const fromCurrency=fromDropDown.value;
 const toCurrency = toDropDown.value;
-if (amount.length != 0){
+if (amount.length !== 0){
 fetch(api)
     .then(resp=>resp.json())
     .then((data)=> {
@@ -36,5 +36,5 @@ fetch(api)
 }
 }
 
-document.querySelector('#convert-button').addEventListener("click", convertCurrency)
+document.querySelector('#convert__button').addEventListener("click", convertCurrency)
 window.addEventListener('load',convertCurrency)
