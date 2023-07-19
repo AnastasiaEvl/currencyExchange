@@ -47,6 +47,7 @@ input::-webkit-inner-spin-button {
     justify-content: center;
     gap:2rem;
 }
+
 .dropdowns__select{
     background-color: turquoise;
     border-radius: 50px;
